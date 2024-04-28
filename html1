@@ -1,24 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content - Type"
-        charset=UTF-8">
-        <title>Welcome - Document</title>
-    </head>
-    <body>
-        <h1>Header 1</h1>
-        <h2>Heading 2</h2>
-        Distinguish between a worm, a virus, a Trojan, adware, and spyware in the context of 
-computer security (5 marks) 
-Identify and describe the <br>THREE key goals of security using relevant examples of each 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="">
+        <label for="Fn">Fullname:</label><br>
+        <input type="text" id="Fn" placeholder="Fullname"><br><br>
+        <input type="number" placeholder="Age"><br><br>
+        <input type="password" placeholder="Pass"><br><br>
+        <input type="email" placeholder="Email Address"><br><br>
+        <input type="color" placeholder=""><br><br>
+        <input type="range" placeholder=""><br><br>
+        <input type="date" placeholder=""><br><br>
+        <input type="time" placeholder=""><br><br>
 
- The information technology as a sector is experiencing advancements also known as 
-trends. Describe any two IT trends. 4Marks
-    <img src="images/tate.png" alt="" width="30%">
+        <label for="Basic">Basic</label>
+         <input type="radio" id="Basic" name="level" placeholder="">
 
-    <ul type="I" start="4">
-    </ul>    
-    <table border="1px" style="border: 1px solid"6  54
-   </body>
+         <label for="Intermediate">Intermediate</label>
+         <input type="radio" id="Intermediate" name="level" placeholder="">
 
+        <label for="Advanced">Advanced</label>
+         <input type="radio" id="Advanced" name="level" placeholder="">
+<br><br>
+<input type="checkbox" id="Swahili" value="Swahili" name="Swahili">
+<label for="Swahili">Swahili</label><br>
+<input type="checkbox" id="English" value="English" name="English">
+<label for="English">English</label><br>
+
+
+<br>
+
+<textarea cols="30" rows="10"></textarea>
+
+<br><br>
+
+<select name="" id="">
+    <option value="">---Select Gender-</option>
+    <option value="1">Female</option>
+    <option value="2">Male</option>
+    <option value="3">Rather not say</option>
+</select>
+
+<br><br>
+<input type="submit" value="input details">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    </form>
+</body>
 </html>
