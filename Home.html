@@ -5,73 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CeeCash</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            background-image: url('images/CEECASH.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 10px 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        .header h1 {
-            margin: 0;
-            color: #007bff;
-        }
-        .header .signup {
-            margin: 0;
-        }
-        .header .signup a {
-            color: #fff;
-            background-color: #007bff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        .main-content {
-            background: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            max-width: 800px;
-            margin: 40px auto;
-        }
-        .main-content p, .main-content a {
-            margin: 10px 0;
-            color: #007bff;
-            text-decoration: none;
-        }
-        .main-content a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <h1>CeeCash</h1>
-        <div class="signup">
-            <a href="Signup.html">Sign Up</a>
+    <header class="header">
+        <div class="container">
+            <h1>CeeCash</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="Signup.html">Sign Up</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-    <div class="main-content">
-        <p>Welcome to our website page</p>
-        <b><i><u>This is CeeCash</u></i></b>
-        <p>Find us at <a href="https://www.instagram.com/reel/C8SLGqNNK6w/?igsh=bXZvb2IyZWIyNXVh" target="_blank">CEECASH</a>.</p>
-        <p>Here you can find a video of what we do: <a href="links.html" target="_blank">Video</a>.</p>
-        <p>What services do we offer: <a href="Services.html" target="_blank">Services offered</a>.</p>
-        <p>Contact us: <a href="Contact.html" target="_blank">Contacts</a>.</p>
+    </header>
+    <div class="main-content container">
+        <h2>Welcome to CeeCash</h2>
+        <p><strong><em>This is CeeCash</em></strong></p>
+        <p>Find us on Instagram: <a href="https://www.instagram.com/reel/C8SLGqNNK6w/?igsh=bXZvb2IyZWIyNXVh" target="_blank">CEECASH</a></p>
+        <p>Here you can find a video of what we do: <a href="links.html" target="_blank">Video</a></p>
+        <p>Discover the services we offer: <a href="Services.html" target="_blank">Services offered</a></p>
+        <p>Contact us: <a href="Contact.html" target="_blank">Contacts</a></p>
     </div>
 </body>
 </html>
